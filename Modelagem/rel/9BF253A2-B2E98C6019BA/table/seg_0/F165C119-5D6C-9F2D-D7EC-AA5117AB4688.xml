@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD069351-5828-776A-203E-837E61DE3E64" name="Habilidade">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F165C119-5D6C-9F2D-D7EC-AA5117AB4688" name="Habilidade">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>B5B13290-D46B-5C20-6D57-914458ACE368</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Id_habilidade" id="01E176D8-7C3E-034A-98DA-A07C0396B69F">
+<Column name="Id_habilidade" id="C95588CC-C217-20AD-AC97-AF6815009B25">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>86B3AFAA-82D9-275A-2731-3EA5E232B1DD</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nome_habilidade" id="5BBC90D7-89ED-B651-AC2E-29489D87AF01">
+<Column name="Nome_habilidade" id="3A2A8A5D-A4BD-70A1-2EF1-F8A1292FC7D7">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>35ADC8F8-FFCD-B0B1-001E-F070103A5D8F</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,18 +32,30 @@
 <ownDataTypeParameters>250,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Tipo_habilidade" id="837493BE-691C-1D13-280D-2171A0B503CD">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
+<generatorID>43C06660-866C-A367-93E6-7301F77A3CDB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3DA0254C-2B3C-1DE0-76C1-996A0D2E5D1E" name="Habilidade_PK">
+<ind_PK_UK id="0AD9D452-ED19-A867-34FA-9F07FD0CBB80" name="Habilidade_PK">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>2B8155E7-C60C-A0D1-4285-8A405A12AC10</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="01E176D8-7C3E-034A-98DA-A07C0396B69F"/>
+<colUsage columnID="C95588CC-C217-20AD-AC97-AF6815009B25"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

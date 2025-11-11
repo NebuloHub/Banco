@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possui_Habilidade_FK" directorySegmentName="seg_0" id="20393AF4-7A29-5D84-0E2C-9EA42A06600C">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>BEF176BD-AEEB-2A27-2925-D0AABBE9314E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<sourcePk>0D824996-8A4D-C34F-1B0A-2F0A37FD9D09</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6D17547E-7B32-0237-2061-BEC5DCFE9B06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23458211-3964-1D06-5BC2-73FB9F186A70</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

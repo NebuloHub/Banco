@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5AE6F22-A1AC-629B-DF81-0B11A57BD9B6" name="Startup">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>51BAE0B0-9C83-AB93-2CAD-C1E2D4837615</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CNPJ" id="3FD5AF8F-0EE2-E035-2CA0-AAE83352CF44">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>B468741C-55C1-8492-BD9B-3C3112A448C7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Video" id="35D34A43-14FC-B50C-711A-8A4DAF12AA45">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>B0DF36E5-F061-7EB1-5DA5-F1D46088B4D1</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome startup" id="97FE4960-1601-B4FF-CDE6-603EA5770422">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>7B10C83D-C599-D5C0-66D7-D5020BD66D8E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Site" id="300F210C-FAF0-3858-EF86-0C07A747B40B">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>E8B56756-6CBF-E5E7-4FD4-8A17510601D7</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descricao" id="46A4F6AC-F643-A2EB-1DE8-063AA3A83A6A">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>587B6637-677F-5C08-BBEA-B1E07DCD0DB6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome responsavel" id="80D0C689-20ED-7092-9946-829862D9C5F2">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>18992036-1CEB-5B1C-CFAF-D923CD77E22C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email startup" id="34DC2F6B-7762-DC37-8DEF-D09885B45B46">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>61C686FF-8202-9E68-7B6D-F81C2D946277</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usuario CPF" id="56739906-16C5-AB38-DC14-3315B60D4F36">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>CE98984B-6215-41A2-0029-14F50ECCE136</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<referedAttribute>5A64A128-37BF-0701-E82C-10AF90D8504C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EAE3D99-8F6B-80CC-0282-E3B1462FB393" name="Startup PK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>B1EAC858-B7F7-7176-7F78-706F7296DE12</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FD5AF8F-0EE2-E035-2CA0-AAE83352CF44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

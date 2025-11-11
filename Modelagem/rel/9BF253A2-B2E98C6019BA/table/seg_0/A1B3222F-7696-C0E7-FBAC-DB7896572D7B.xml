@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D550BF7-D36D-AD48-D683-F5BD93DC486D" name="Avaliacao">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1B3222F-7696-C0E7-FBAC-DB7896572D7B" name="Avaliacao">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>D659BCA1-BEF3-8BF2-C032-2C6B1E9C61EB</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Id_avaliacao" id="77DA17FB-C87A-28C3-3905-87F0C75CF1B0">
+<Column name="Id_avaliacao" id="B1932E99-0C5A-1C95-3739-8ACB089E4C89">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>C108BF6E-5ECA-4E79-0B34-4A2A406E0D48</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,100,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nota" id="E7B2E4F2-7367-CB6B-0B32-D9272A8B6427">
+<Column name="Nota" id="048C89E4-BF6B-FF9D-513D-D378B0DDD24A">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>A8E54D83-A071-2FDD-35C8-6DA13512588F</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -33,22 +33,21 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Comentario" id="31EC37D2-6D1B-D43A-9D56-CFAD4E91DBC1">
+<Column name="Comentario" id="9DB52DD2-4DBA-D921-83E2-F67B6093D8BB">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>3B13E33E-27B7-F4DD-C918-6D573794764A</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>250</dataTypeSize>
-<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Usuario_CPF" id="4CD26FCE-54BB-CDEC-541E-EDB2330454A5">
+<Column name="Usuario_CPF" id="EB98ABCE-DAA0-7C32-3A0A-7F7111E3C13F">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>7C607E3F-BAA8-D058-FEA6-45C813FE95E9</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,12 +58,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C083D0FE-B905-31E1-426A-59541ECACA38" referredColumn="617813FB-1C5F-83EC-FBB5-4685A8E55943"/>
+<colAssociation fkAssociation="D66A1966-2E1E-2D62-29D2-15AA1C4665F9" referredColumn="A76575A4-C92C-F3EF-9B42-7C6C3C61BD44"/>
 </associations>
 </Column>
-<Column name="Startup_CNPJ" id="55B0FFB3-4948-6D6A-AAFF-D2972FCF4476">
+<Column name="Startup_CNPJ" id="AC75DC8A-94EA-E076-6615-541C21C25965">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>8CEA4E9E-336A-77EF-B27B-56EC94F74B55</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -75,43 +74,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1EBC8946-A355-9EF5-6822-57C1BD3093A5" referredColumn="92A292F7-27EA-2FDA-1809-21DF1F29899A"/>
+<colAssociation fkAssociation="C18D7578-A4B9-4C2A-FA25-61ACE8C22871" referredColumn="B468741C-55C1-8492-BD9B-3C3112A448C7"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="04C68F3D-9064-801B-0EA1-77CA920DBA19" name="Avaliacao_PK">
+<ind_PK_UK id="5F88FAF5-636A-E4AC-5E82-2D7EC4E6BC7D" name="Avaliacao_PK">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>E130B2CE-AACA-E969-705A-A8348E5DFD8E</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="77DA17FB-C87A-28C3-3905-87F0C75CF1B0"/>
+<colUsage columnID="B1932E99-0C5A-1C95-3739-8ACB089E4C89"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B5C6C9BB-59DE-0666-3B85-B7E8599A547B" name="Avaliacao_Usuario_FK">
+<ind_PK_UK id="9F3D469B-617B-FCF5-48C0-ABAF9BF7F298" name="Avaliacao_Usuario_FK">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>4DC720DE-18CD-A52E-AB3A-3229D528952D</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4CD26FCE-54BB-CDEC-541E-EDB2330454A5"/>
+<colUsage columnID="EB98ABCE-DAA0-7C32-3A0A-7F7111E3C13F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FDBC80A7-FE63-185D-570D-9195DD528E43" name="Avaliacao_Startup_FK">
+<ind_PK_UK id="C9F185A6-539A-B912-2156-ADAD4324D781" name="Avaliacao_Startup_FK">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
 <generatorID>D8F71C2A-A4B7-ED18-89ED-374DB5941136</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="55B0FFB3-4948-6D6A-AAFF-D2972FCF4476"/>
+<colUsage columnID="AC75DC8A-94EA-E076-6615-541C21C25965"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

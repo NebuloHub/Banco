@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Avaliacao_Usuario_FK" directorySegmentName="seg_0" id="A6B75B5C-C994-0383-14C1-65E92177569C">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>D66A1966-2E1E-2D62-29D2-15AA1C4665F9</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<sourcePk>0BE6B984-0BF1-9801-F614-D88FD599FCBC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8BECB23F-9CDA-1B3D-3CCE-DBD46C1F7DEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67B35079-2CAA-2FB9-E07E-1871D256958E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

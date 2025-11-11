@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tem" directorySegmentName="seg_0" id="D8F71C2A-A4B7-ED18-89ED-374DB5941136">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possui_Startup_FK" directorySegmentName="seg_0" id="E7B14E36-7665-7A7C-B396-BC27A44F5194">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:59:53 UTC</createdTime>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>3721D0ED-6F57-F4A8-E899-6E94D7F44FA9</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
 </engineerTo>
-<sourcePk>98109843-3770-C73E-F875-83E65CEF4520</sourcePk>
+<sourcePk>4EAE3D99-8F6B-80CC-0282-E3B1462FB393</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>C4711D4E-6AB8-5760-B5AB-D8849D803F53</sourceEntity>
+<sourceEntity>A5AE6F22-A1AC-629B-DF81-0B11A57BD9B6</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>D659BCA1-BEF3-8BF2-C032-2C6B1E9C61EB</targetEntity>
+<targetEntity>23458211-3964-1D06-5BC2-73FB9F186A70</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

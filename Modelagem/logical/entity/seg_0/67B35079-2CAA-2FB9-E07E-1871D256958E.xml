@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D659BCA1-BEF3-8BF2-C032-2C6B1E9C61EB" name="Avaliacao">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67B35079-2CAA-2FB9-E07E-1871D256958E" name="Avaliacao">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:09:34 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>A1B3222F-7696-C0E7-FBAC-DB7896572D7B</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id_avaliacao" id="C108BF6E-5ECA-4E79-0B34-4A2A406E0D48">
+<Attribute name="Id avaliacao" id="9E29D431-FC6E-F244-1D09-480EE804B1B8">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:09:43 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>B1932E99-0C5A-1C95-3739-8ACB089E4C89</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
@@ -28,9 +30,10 @@
 <dataTypePrecision>100</dataTypePrecision>
 <ownDataTypeParameters>,100,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nota" id="A8E54D83-A071-2FDD-35C8-6DA13512588F">
+<Attribute name="Nota" id="0754C977-0D3E-0AA2-A626-3D12BB82CB49">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:18:00 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>048C89E4-BF6B-FF9D-513D-D378B0DDD24A</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
@@ -42,9 +45,10 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Comentario" id="3B13E33E-27B7-F4DD-C918-6D573794764A">
+<Attribute name="Comentario" id="4C229C9D-9C11-A23B-C96C-73AC399E4ACF">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:49:21 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>9DB52DD2-4DBA-D921-83E2-F67B6093D8BB</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
@@ -52,34 +56,33 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>250</dataTypeSize>
-<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CPF" id="7C607E3F-BAA8-D058-FEA6-45C813FE95E9">
+<Attribute name="Usuario CPF" id="53A27F59-E1F7-2EE5-5F1B-F0908B0EB5E3">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:59:13 UTC</createdTime>
-<generatorID>4DC720DE-18CD-A52E-AB3A-3229D528952D</generatorID>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>A6B75B5C-C994-0383-14C1-65E92177569C</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
 </engineerTo>
-<referedAttribute>789DCD7B-9DD8-B311-F733-75635F7E8E77</referedAttribute>
+<referedAttribute>5A64A128-37BF-0701-E82C-10AF90D8504C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CNPJ" id="8CEA4E9E-336A-77EF-B27B-56EC94F74B55">
+<Attribute name="Startup CNPJ" id="5559F27D-519A-AF01-0D20-9AD7044C0C29">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:59:53 UTC</createdTime>
-<generatorID>D8F71C2A-A4B7-ED18-89ED-374DB5941136</generatorID>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>7CADD88A-1AA7-F68F-1425-D7B11135FC1B</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
 </engineerTo>
-<referedAttribute>5672AFE8-A975-53B3-EB95-8B26E6A8A449</referedAttribute>
+<referedAttribute>3FD5AF8F-0EE2-E035-2CA0-AAE83352CF44</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -88,16 +91,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E130B2CE-AACA-E969-705A-A8348E5DFD8E" name="Avaliacao PK">
+<identifier id="C84686CE-D058-677D-1503-8BFF20958ECF" name="Avaliacao PK">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:10:22 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>5F88FAF5-636A-E4AC-5E82-2D7EC4E6BC7D</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C108BF6E-5ECA-4E79-0B34-4A2A406E0D48</attributeRef>
+<attributeRef>9E29D431-FC6E-F244-1D09-480EE804B1B8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

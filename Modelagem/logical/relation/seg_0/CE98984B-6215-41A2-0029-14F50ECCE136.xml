@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cria" directorySegmentName="seg_0" id="F255AC65-DBCF-C5A2-0EB6-5BAB87715E13">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Startup_Usuario_FK" directorySegmentName="seg_0" id="CE98984B-6215-41A2-0029-14F50ECCE136">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:01:16 UTC</createdTime>
+<createdTime>2025-11-11 17:33:02 UTC</createdTime>
+<generatorID>294297DF-7BA8-BAFA-D26F-988A2130F077</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
 </engineerTo>
-<sourcePk>121CC300-F0DE-A311-35FE-860917ACC07E</sourcePk>
+<sourcePk>0BE6B984-0BF1-9801-F614-D88FD599FCBC</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>D6BF2FD8-C69D-4FC2-1D10-6DF12D705402</sourceEntity>
+<sourceEntity>8BECB23F-9CDA-1B3D-3CCE-DBD46C1F7DEF</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>C4711D4E-6AB8-5760-B5AB-D8849D803F53</targetEntity>
+<targetEntity>A5AE6F22-A1AC-629B-DF81-0B11A57BD9B6</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

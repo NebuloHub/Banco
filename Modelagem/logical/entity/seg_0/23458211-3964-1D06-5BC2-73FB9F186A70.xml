@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5B13290-D46B-5C20-6D57-914458ACE368" name="Habilidade">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23458211-3964-1D06-5BC2-73FB9F186A70" name="Possui">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:57:57 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>552EB66A-0663-211F-FBE5-2C30022B7ABE</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id_habilidade" id="86B3AFAA-82D9-275A-2731-3EA5E232B1DD">
+<Attribute name="Id possui" id="191380DB-6716-3074-93D9-5B1453C31D99">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:05:53 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>CAE4108B-7332-2369-9BD4-87CFF367D119</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
@@ -25,47 +27,52 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Startup CNPJ" id="56076D19-928E-74EF-083B-715ECE82E848">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>E7B14E36-7665-7A7C-B396-BC27A44F5194</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<referedAttribute>3FD5AF8F-0EE2-E035-2CA0-AAE83352CF44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Habilidade Id habilidade" id="C893711B-E7EC-AAE6-3C5B-306FB273A699">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>20393AF4-7A29-5D84-0E2C-9EA42A06600C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<referedAttribute>02BE71DE-062A-F451-51EB-155185825E30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Nome_habilidade" id="35ADC8F8-FFCD-B0B1-001E-F070103A5D8F">
-<createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:58:07 UTC</createdTime>
-<ownerDesignName>Modelagem</ownerDesignName>
-<engineerTo>
-<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>250</dataTypeSize>
-<ownDataTypeParameters>250,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Tipo_habilidade" id="43C06660-866C-A367-93E6-7301F77A3CDB">
-<createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 16:36:26 UTC</createdTime>
-<ownerDesignName>Modelagem</ownerDesignName>
-<engineerTo>
-<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2B8155E7-C60C-A0D1-4285-8A405A12AC10" name="Habilidade PK">
+<identifier id="31019FE0-9ED1-3076-18E7-E1688191EB16" name="Possui PK">
 <createdBy>Passos Magicos</createdBy>
-<createdTime>2025-11-11 15:58:39 UTC</createdTime>
+<createdTime>2025-11-11 17:33:01 UTC</createdTime>
+<generatorID>1B2F327D-7DDE-BB2E-C796-9A33EE577072</generatorID>
 <ownerDesignName>Modelagem</ownerDesignName>
 <engineerTo>
 <item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>86B3AFAA-82D9-275A-2731-3EA5E232B1DD</attributeRef>
+<attributeRef>191380DB-6716-3074-93D9-5B1453C31D99</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

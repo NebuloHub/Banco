@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEF176BD-AEEB-2A27-2925-D0AABBE9314E" containerWithKeyObject="552EB66A-0663-211F-FBE5-2C30022B7ABE" localFKIndex="462CB3D3-632A-AA0E-43D3-D24D66A6A165" name="Possui_Habilidade_FK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 17:24:55 UTC</createdTime>
+<generatorID>41FEC1C8-8274-85C3-B370-4B7401FB103E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>Habilidade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F165C119-5D6C-9F2D-D7EC-AA5117AB4688</referredTableID>
+<keyObject>0AD9D452-ED19-A867-34FA-9F07FD0CBB80</keyObject>
+<referredKeyID>0AD9D452-ED19-A867-34FA-9F07FD0CBB80</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_habilidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
