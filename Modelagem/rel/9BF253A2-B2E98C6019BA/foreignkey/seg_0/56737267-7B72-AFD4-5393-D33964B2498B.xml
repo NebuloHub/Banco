@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56737267-7B72-AFD4-5393-D33964B2498B" containerWithKeyObject="D130FDB5-CBA6-130A-897A-BFF434ED2297" localFKIndex="6DC7D14D-5B82-5B78-BAEC-9208AA4515B5" name="Startup_Usuario_FK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>F255AC65-DBCF-C5A2-0EB6-5BAB87715E13</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>Usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6F2B3E86-721A-54A3-7563-59E23299755C</referredTableID>
+<keyObject>E803D579-2203-3369-4200-7C4F2C8C6419</keyObject>
+<referredKeyID>E803D579-2203-3369-4200-7C4F2C8C6419</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CPF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

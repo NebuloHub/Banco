@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D130FDB5-CBA6-130A-897A-BFF434ED2297" name="Startup">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>C4711D4E-6AB8-5760-B5AB-D8849D803F53</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNPJ" id="92A292F7-27EA-2FDA-1809-21DF1F29899A">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>5672AFE8-A975-53B3-EB95-8B26E6A8A449</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Video" id="E23A9A50-48DC-F34B-913D-76CC32A1BD6F">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>52EDE30F-ED47-9D61-379C-EA6C0B395256</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome_startup" id="1D800EF2-5F88-E0EE-202D-658990462376">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>C9404CCF-196A-D237-A2EE-36AAD9B6A82A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Site" id="0CAFC850-1507-171F-F6A8-EB78660BE791">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>66453127-754C-BDA3-A1BF-4F992FE2F210</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="B581B4F9-E0FC-0EFB-E2D5-1F002E44B056">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>A3E9A27C-00CE-AAB7-ED1E-AE2D3D17CCDF</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome_responsavel" id="4408AAC4-421B-D155-4021-25345FD93A0A">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>184F8F76-17DB-CEF0-3C45-0ADE608D92E9</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_startup" id="67FE52D4-3A8F-641E-C464-50FB2DC87F9D">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>041B31AE-A806-2A5D-2CCA-C243D5CB7C0A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_CPF" id="18BA95A4-E244-A90D-1BCD-8131C51914D3">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>9CD53E96-4BA2-FF30-B3A1-116DE8C1077D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56737267-7B72-AFD4-5393-D33964B2498B" referredColumn="617813FB-1C5F-83EC-FBB5-4685A8E55943"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86494FAC-E732-206F-56D9-874E7C9C5C61" name="Startup_PK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>98109843-3770-C73E-F875-83E65CEF4520</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92A292F7-27EA-2FDA-1809-21DF1F29899A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DC7D14D-5B82-5B78-BAEC-9208AA4515B5" name="Startup_Usuario_FK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:37:07 UTC</createdTime>
+<generatorID>F255AC65-DBCF-C5A2-0EB6-5BAB87715E13</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18BA95A4-E244-A90D-1BCD-8131C51914D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
