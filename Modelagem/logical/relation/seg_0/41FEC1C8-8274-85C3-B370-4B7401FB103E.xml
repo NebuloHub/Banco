@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possui" directorySegmentName="seg_0" id="41FEC1C8-8274-85C3-B370-4B7401FB103E">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:02:36 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C4711D4E-6AB8-5760-B5AB-D8849D803F53</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5B13290-D46B-5C20-6D57-914458ACE368</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

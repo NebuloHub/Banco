@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Avalia" directorySegmentName="seg_0" id="4DC720DE-18CD-A52E-AB3A-3229D528952D">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 15:59:13 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<sourcePk>121CC300-F0DE-A311-35FE-860917ACC07E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6BF2FD8-C69D-4FC2-1D10-6DF12D705402</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D659BCA1-BEF3-8BF2-C032-2C6B1E9C61EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

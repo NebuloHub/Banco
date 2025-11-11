@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCF58E26-6C93-8D41-868F-2C57D9E33442" name="Possui">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:53 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Startup_CNPJ" id="31A60A5C-8581-8FA9-8182-807F73832B29">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:53 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="384C5D28-740C-40E8-3FEC-149A1471A556" referredColumn="CDE254BE-AD5D-BF17-16FD-210D9FF30B3D"/>
+</associations>
+</Column>
+<Column name="Habilidade_Id_habilidade" id="132A314E-922B-2F6C-5462-2E06E2120C8B">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:53 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E289A70A-3C11-3FA4-C8E9-3A5EECE06B3E" referredColumn="01E176D8-7C3E-034A-98DA-A07C0396B69F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0407EE3D-0401-2C61-D71F-FFF03E2F8E96" name="Possui_PK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:53 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31A60A5C-8581-8FA9-8182-807F73832B29"/>
+<colUsage columnID="132A314E-922B-2F6C-5462-2E06E2120C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA7BB781-7E3A-B5E0-D11F-639AE692686E" name="Possui_Startup_FK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:53 UTC</createdTime>
+<generatorID>41FEC1C8-8274-85C3-B370-4B7401FB103E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31A60A5C-8581-8FA9-8182-807F73832B29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="400A27EA-20D1-5D36-8D14-AD8D6AD15C67" name="Possui_Habilidade_FK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:53 UTC</createdTime>
+<generatorID>41FEC1C8-8274-85C3-B370-4B7401FB103E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="132A314E-922B-2F6C-5462-2E06E2120C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

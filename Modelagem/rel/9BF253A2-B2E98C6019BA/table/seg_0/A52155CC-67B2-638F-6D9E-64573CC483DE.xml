@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A52155CC-67B2-638F-6D9E-64573CC483DE" name="Avaliacao">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>D659BCA1-BEF3-8BF2-C032-2C6B1E9C61EB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_avaliacao" id="9FA383CC-4D55-3767-1EEF-0AF0E0D7A47D">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>C108BF6E-5ECA-4E79-0B34-4A2A406E0D48</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota" id="D581DA0A-213C-1882-F736-2768A779AE8E">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>A8E54D83-A071-2FDD-35C8-6DA13512588F</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comentario" id="5A37C7F0-38DF-79B3-F379-DBC7A258DC06">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>3B13E33E-27B7-F4DD-C918-6D573794764A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_CPF" id="A865DCC6-575F-3CAA-2A05-4ED559CC4A53">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>7C607E3F-BAA8-D058-FEA6-45C813FE95E9</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13614FD6-19A0-58A5-7162-53A175A362FF" referredColumn="C4C3856B-B575-6BE0-4CA6-3AE219D32D18"/>
+</associations>
+</Column>
+<Column name="Startup_CNPJ" id="E83A1B9F-EA62-D3BC-EAAF-136663EEA33A">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>8CEA4E9E-336A-77EF-B27B-56EC94F74B55</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D751D9C6-E1E0-25CD-DFB9-2AE277109F87" referredColumn="CDE254BE-AD5D-BF17-16FD-210D9FF30B3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A2FD344-E8E6-463C-3004-B1A71F29F7ED" name="Avaliacao_PK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>E130B2CE-AACA-E969-705A-A8348E5DFD8E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FA383CC-4D55-3767-1EEF-0AF0E0D7A47D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AADCC82-D6DA-AF33-1C52-DAED7B3A12B8" name="Avaliacao_Usuario_FK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>4DC720DE-18CD-A52E-AB3A-3229D528952D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A865DCC6-575F-3CAA-2A05-4ED559CC4A53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A47A4D70-F85F-FD82-B9A8-7F25B86F1116" name="Avaliacao_Startup_FK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:53 UTC</createdTime>
+<generatorID>D8F71C2A-A4B7-ED18-89ED-374DB5941136</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83A1B9F-EA62-D3BC-EAAF-136663EEA33A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

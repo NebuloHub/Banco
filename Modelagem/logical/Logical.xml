@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0110B220-34A1-394B-5A99-0B2BB70AD3E8" mainViewID="008A210A-0903-1109-93B8-0F683D51487A">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 14:38:22 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

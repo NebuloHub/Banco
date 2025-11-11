@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB87A9E2-712D-4DD4-D4A8-8D2C118CA0FF" name="Usuario">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>D6BF2FD8-C69D-4FC2-1D10-6DF12D705402</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="C4C3856B-B575-6BE0-4CA6-3AE219D32D18">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>789DCD7B-9DD8-B311-F733-75635F7E8E77</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="31A24299-BC5B-F1FE-E574-F6F7AF1686AE">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>67B429DF-5001-FDF1-4997-723DDB422D3C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="20F74815-1AC0-D551-0697-DAB6109FEB1B">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>075821D8-9A20-0447-9ED6-B1F83EAB71EA</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Senha" id="D7B1686A-3918-4395-27E7-512E7866D9CA">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>7CFA5603-3343-FDA4-0067-9AAD5FDB98C8</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="F663962F-9B67-F7CA-E817-E669E4B7E335">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>EA5B9359-C63A-F158-7962-6D9CFF69513E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F226444C-89B4-5DC7-6192-251A6B71A566" name="Usuario_PK">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 16:08:52 UTC</createdTime>
+<generatorID>121CC300-F0DE-A311-35FE-860917ACC07E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4C3856B-B575-6BE0-4CA6-3AE219D32D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tem" directorySegmentName="seg_0" id="D8F71C2A-A4B7-ED18-89ED-374DB5941136">
+<createdBy>Passos Magicos</createdBy>
+<createdTime>2025-11-11 15:59:53 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="9BF253A2-6FB2-17CE-6141-B2E98C6019BA" value="true"/>
+</engineerTo>
+<sourcePk>98109843-3770-C73E-F875-83E65CEF4520</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4711D4E-6AB8-5760-B5AB-D8849D803F53</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D659BCA1-BEF3-8BF2-C032-2C6B1E9C61EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
