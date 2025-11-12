@@ -22,7 +22,7 @@ CREATE TABLE habilidade (
 );
 
 CREATE TABLE startup (
-    CNPJ    VARCHAR2(15) CONSTRAINT CNPJ_PK PRIMARY KEY,
+    CNPJ    VARCHAR2(14) CONSTRAINT CNPJ_PK PRIMARY KEY,
     Video   VARCHAR2(250),
     Nome_startup VARCHAR2(150) CONSTRAINT Nome_startup_NN NOT NULL,
     Site    VARCHAR2(250),
@@ -173,6 +173,9 @@ END;
 COMMIT;
 
 
+
+
+
 ----------------------------------------------------------------------------------------------
 --                                      Auditoria
 ----------------------------------------------------------------------------------------------
@@ -233,13 +236,61 @@ SELECT * FROM auditoria ORDER BY data_execucao DESC;
 --                                      Funcao 1
 ----------------------------------------------------------------------------------------------
 
--- Testar função JSON
-SET SERVEROUTPUT ON
+-- Teste função 1
+
+SET LONG 1000000
 DECLARE
-  v_json VARCHAR2(32767);
+  v_json CLOB;
 BEGIN
-  v_json := pkg_funcao1_json_util.gerar_json_perfil('12345678901');
-  DBMS_OUTPUT.PUT_LINE('JSON gerado: ' || v_json);
+  v_json := pkg_funcao1_json_util.gerar_json_perfil('12345678901'); -- coloque um CPF válido do seu DB
+  DBMS_OUTPUT.PUT_LINE(SUBSTR(v_json,1,32000)); -- mostra começo do CLOB
 END;
 /
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+--                                      Funcao 2
+----------------------------------------------------------------------------------------------
+
+-- Teste função 2
+
+DECLARE
+  v_resultado CLOB;
+BEGIN
+  v_resultado := pkg_funcao2_validacao.analisar_startup('22333444000182'); -- GreenWave
+  DBMS_OUTPUT.PUT_LINE(v_resultado);
+END;
+/
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+--                                Exportacao do JSON
+----------------------------------------------------------------------------------------------
+
+
+SET SERVEROUTPUT ON SIZE UNLIMITED;
+SET LONG 1000000;
+SET LINESIZE 32767;
+SET FEEDBACK OFF;
+SET TERMOUT OFF;
+SPOOL startups_exportadas.json;
+
+DECLARE
+  v_json CLOB;
+BEGIN
+  PKG_EXPORTACOES_STARTUP.PRC_EXPORTAR_TODAS_STARTUPS_JSON(v_json);
+  DBMS_OUTPUT.PUT_LINE(v_json);
+END;
+/
+
+SPOOL OFF;
+
+SET FEEDBACK ON;
+SET TERMOUT ON;
 
