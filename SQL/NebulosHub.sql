@@ -58,28 +58,6 @@ CREATE TABLE auditoria (
 
 
 
-----------------------------------------------------------------------------------------------
---                                      Sequence
-----------------------------------------------------------------------------------------------
-
-
-DROP SEQUENCE habilidade_seq;
-DROP SEQUENCE avaliacao_seq;
-DROP SEQUENCE possui_seq;
-DROP SEQUENCE auditoria_seq;
-
-
-CREATE SEQUENCE habilidade_seq START WITH 1 INCREMENT BY 1;
-CREATE SEQUENCE avaliacao_seq START WITH 1 INCREMENT BY 1;
-CREATE SEQUENCE possui_seq START WITH 1 INCREMENT BY 1;
-CREATE SEQUENCE auditoria_seq START WITH 1 INCREMENT BY 1;
-
-
-ALTER TABLE habilidade MODIFY Id_habilidade DEFAULT habilidade_seq.NEXTVAL;
-ALTER TABLE avaliacao MODIFY Id_avaliacao DEFAULT avaliacao_seq.NEXTVAL;
-ALTER TABLE possui MODIFY Id_possui DEFAULT possui_seq.NEXTVAL;
-ALTER TABLE auditoria MODIFY id_auditoria DEFAULT auditoria_seq.NEXTVAL;
-
 
 ----------------------------------------------------------------------------------------------
 --                                      INSERTS
@@ -171,6 +149,33 @@ END;
 /
 
 COMMIT;
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+--                                      Sequence
+----------------------------------------------------------------------------------------------
+
+
+DROP SEQUENCE habilidade_seq;
+DROP SEQUENCE avaliacao_seq;
+DROP SEQUENCE possui_seq;
+DROP SEQUENCE auditoria_seq;
+
+
+CREATE SEQUENCE habilidade_seq START WITH 20 INCREMENT BY 1;
+CREATE SEQUENCE avaliacao_seq START WITH 20 INCREMENT BY 1;
+CREATE SEQUENCE possui_seq START WITH 20 INCREMENT BY 1;
+CREATE SEQUENCE auditoria_seq START WITH 20 INCREMENT BY 1;
+
+
+ALTER TABLE habilidade MODIFY Id_habilidade DEFAULT habilidade_seq.NEXTVAL;
+ALTER TABLE avaliacao MODIFY Id_avaliacao DEFAULT avaliacao_seq.NEXTVAL;
+ALTER TABLE possui MODIFY Id_possui DEFAULT possui_seq.NEXTVAL;
+ALTER TABLE auditoria MODIFY id_auditoria DEFAULT auditoria_seq.NEXTVAL;
 
 
 
