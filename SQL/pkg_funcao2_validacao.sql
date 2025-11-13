@@ -32,7 +32,11 @@ create or replace PACKAGE BODY pkg_funcao2_validacao AS
       FROM startup
      WHERE cnpj = p_cnpj;
 
-    v_site := REPLACE(v_site, '"', '');
+    -- Limpeza: remover aspas comuns e aparar espaços
+    v_site := NVL(v_site, '');
+    v_site := REPLACE(v_site, '"', '');    -- aspas duplas normais
+    v_site := REPLACE(v_site, '''', '');   -- aspas simples, se houver
+    v_site := TRIM(v_site);
 
     -- ==========================
     -- Validações com REGEXP
@@ -48,9 +52,10 @@ create or replace PACKAGE BODY pkg_funcao2_validacao AS
       RAISE_APPLICATION_ERROR(-20002, 'E-mail da startup inválido. Verifique o formato.');
     END IF;
 
-    IF NOT REGEXP_LIKE(v_site, '^(https?:\/\/)[\w\-\.]+\.\w{2,}') THEN
+    -- Regex atualizada: aceita http(s)://domínio.tld e opcionalmente caminho (/...)
+    IF NOT REGEXP_LIKE(v_site, '^(https?:\/\/)[\w\-\.:]+\.\w{2,}(\/.*)?$') THEN
       v_validacoes_ok := FALSE;
-      RAISE_APPLICATION_ERROR(-20003, 'Site inválido. Deve começar com http:// ou https://');
+      RAISE_APPLICATION_ERROR(-20003, 'Site inválido. Deve começar com http:// ou https:// e ter um domínio válido.');
     END IF;
 
     -- ==========================
@@ -77,6 +82,7 @@ create or replace PACKAGE BODY pkg_funcao2_validacao AS
     v_json_resultado := JSON_OBJECT(
       'cnpj' VALUE p_cnpj,
       'nome_startup' VALUE v_nome,
+      'site' VALUE v_site,
       'validacoes' VALUE CASE WHEN v_validacoes_ok THEN 'OK' ELSE 'Falhou' END,
       'qtd_habilidades' VALUE v_total_hab_startup,
       'percentual_sucesso' VALUE v_percentual_sucesso,
