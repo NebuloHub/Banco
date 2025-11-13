@@ -11,26 +11,28 @@ END pkg_funcao2_validacao;
 --------------------------------------------------------------------------------
 --                                  Body
 --------------------------------------------------------------------------------
-
-CREATE OR REPLACE PACKAGE BODY pkg_funcao2_validacao AS
+create or replace PACKAGE BODY pkg_funcao2_validacao AS
 
   FUNCTION analisar_startup(p_cnpj VARCHAR2)
     RETURN CLOB
   IS
-    v_json_resultado   CLOB;
-    v_nome             startup.nome_startup%TYPE;
-    v_email            startup.email_startup%TYPE;
-    v_site             startup.site%TYPE;
+    v_json_resultado    CLOB;
+    v_nome              startup.nome_startup%TYPE;
+    v_email             startup.email_startup%TYPE;
+    v_site              startup.site%TYPE;
     v_total_hab_startup NUMBER;
     v_total_hab_geral   NUMBER;
     v_percentual_sucesso NUMBER;
-    v_validacoes_ok BOOLEAN := TRUE;
+    v_validacoes_ok     BOOLEAN := TRUE;
+
   BEGIN
     -- Busca dados da startup
     SELECT nome_startup, email_startup, site
       INTO v_nome, v_email, v_site
       FROM startup
      WHERE cnpj = p_cnpj;
+
+    v_site := REPLACE(v_site, '"', '');
 
     -- ==========================
     -- Validações com REGEXP
@@ -100,4 +102,3 @@ CREATE OR REPLACE PACKAGE BODY pkg_funcao2_validacao AS
   END analisar_startup;
 
 END pkg_funcao2_validacao;
-
