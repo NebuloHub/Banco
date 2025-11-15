@@ -11,19 +11,20 @@ END pkg_funcao2_validacao;
 --------------------------------------------------------------------------------
 --                                  Body
 --------------------------------------------------------------------------------
-create or replace PACKAGE BODY pkg_funcao2_validacao AS
+
+CREATE OR REPLACE PACKAGE BODY pkg_funcao2_validacao AS
 
   FUNCTION analisar_startup(p_cnpj VARCHAR2)
     RETURN CLOB
   IS
-    v_json_resultado    CLOB;
-    v_nome              startup.nome_startup%TYPE;
-    v_email             startup.email_startup%TYPE;
-    v_site              startup.site%TYPE;
-    v_total_hab_startup NUMBER;
-    v_total_hab_geral   NUMBER;
+    v_json_resultado     CLOB;
+    v_nome               startup.nome_startup%TYPE;
+    v_email              startup.email_startup%TYPE;
+    v_site               startup.site%TYPE;
+    v_total_hab_startup  NUMBER;
+    v_total_hab_geral    NUMBER;
     v_percentual_sucesso NUMBER;
-    v_validacoes_ok     BOOLEAN := TRUE;
+    v_validacoes_ok      BOOLEAN := TRUE;
 
   BEGIN
     -- Busca dados da startup
@@ -32,34 +33,39 @@ create or replace PACKAGE BODY pkg_funcao2_validacao AS
       FROM startup
      WHERE cnpj = p_cnpj;
 
-    -- Limpeza: remover aspas comuns e aparar espaços
+    -- Limpeza: remover aspas e espaços
     v_site := NVL(v_site, '');
-    v_site := REPLACE(v_site, '"', '');    -- aspas duplas normais
-    v_site := REPLACE(v_site, '''', '');   -- aspas simples, se houver
+    v_site := REPLACE(v_site, '"', '');   
+    v_site := REPLACE(v_site, '''', ''); 
     v_site := TRIM(v_site);
 
     -- ==========================
-    -- Validações com REGEXP
+    -- Validações
     -- ==========================
 
+    -- CNPJ
     IF NOT REGEXP_LIKE(p_cnpj, '^[0-9]{14}$') THEN
       v_validacoes_ok := FALSE;
       RAISE_APPLICATION_ERROR(-20001, 'CNPJ inválido. Deve conter apenas 14 dígitos numéricos.');
     END IF;
 
+    -- E-mail
     IF NOT REGEXP_LIKE(v_email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$') THEN
       v_validacoes_ok := FALSE;
       RAISE_APPLICATION_ERROR(-20002, 'E-mail da startup inválido. Verifique o formato.');
     END IF;
 
-    -- Regex atualizada: aceita http(s)://domínio.tld e opcionalmente caminho (/...)
-    IF NOT REGEXP_LIKE(v_site, '^(https?:\/\/)[\w\-\.:]+\.\w{2,}(\/.*)?$') THEN
+    -- Site (regex corrigida)
+    IF NOT REGEXP_LIKE(
+         v_site,
+         '^(https?://)([A-Za-z0-9-]+\.)+[A-Za-z]{2,}(\/.*)?$'
+       ) THEN
       v_validacoes_ok := FALSE;
       RAISE_APPLICATION_ERROR(-20003, 'Site inválido. Deve começar com http:// ou https:// e ter um domínio válido.');
     END IF;
 
     -- ==========================
-    -- Cálculo de sucesso
+    -- Cálculo de Sucesso
     -- ==========================
 
     SELECT COUNT(*) INTO v_total_hab_startup
@@ -70,13 +76,14 @@ create or replace PACKAGE BODY pkg_funcao2_validacao AS
       FROM possui;
 
     IF v_total_hab_geral > 0 THEN
-      v_percentual_sucesso := ROUND((v_total_hab_startup / v_total_hab_geral) * 100, 2);
+      v_percentual_sucesso :=
+        ROUND((v_total_hab_startup / v_total_hab_geral) * 100, 2);
     ELSE
       v_percentual_sucesso := 0;
     END IF;
 
     -- ==========================
-    -- Retorno JSON
+    -- JSON de retorno
     -- ==========================
 
     v_json_resultado := JSON_OBJECT(
