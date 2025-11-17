@@ -79,27 +79,27 @@ BEGIN
     pkg_insercoes.inserir_usuario('01234567890', 'Diego Rocha', 'diego.rocha@aqualink.com', 'Diego!2024', 'USER', 11998754312);
     pkg_insercoes.inserir_usuario('46881761804', 'Luiz Henrique Neri', 'luizhneri20@gmail.com', 'Carrinhos@1234', 'ADMIN', 11973076694);
     
-    pkg_insercoes.inserir_usuario('11111111111', 'Fernando Ribeiro', 'fernando.ribeiro@techinova.com', 'SenhaF1!', 'USER', 11987651234);
-    pkg_insercoes.inserir_usuario('22222222222', 'Patricia Gomes', 'patricia.gomes@creativesoft.com', 'Paty2025$', 'USER', 21976541234);
-    pkg_insercoes.inserir_usuario('33333333333', 'Hugo Martins', 'hugo.martins@falconai.com', 'Hugo@Ai33', 'ADMIN', 31975468912);
-    pkg_insercoes.inserir_usuario('44444444444', 'Simone Araujo', 'simone.araujo@bluewave.com', 'Simone#44', 'USER', 41988887766);
-    pkg_insercoes.inserir_usuario('55555555555', 'Eduardo Batista', 'eduardo.batista@softmind.com', 'Edu555', 'USER', 11976543211);
-    pkg_insercoes.inserir_usuario('66666666666', 'Renata Xavier', 'renata.xavier@futuretech.com', 'Renata!66', 'ADMIN', 21987654322);
-    pkg_insercoes.inserir_usuario('77777777777', 'João Paulo Medeiros', 'jp.medeiros@syscloud.com', 'JoaoP77', 'USER', 31923456789);
-    pkg_insercoes.inserir_usuario('88888888888', 'Aline Castro', 'aline.castro@ecoenergy.com', 'Aline88$', 'USER', 11955667788);
-    pkg_insercoes.inserir_usuario('99999999999', 'Gabriela Mendes', 'gabi.mendes@flowdata.com', 'Gabi#2024', 'USER', 11944332211);
-    pkg_insercoes.inserir_usuario('10101010101', 'Marcelo Santos', 'marcelo.santos@infinity.com', 'Marce1010', 'USER', 21966554422);
+    pkg_insercoes.inserir_usuario('11122233344', 'Fernando Ribeiro', 'fernando.ribeiro@smartflow.com', 'Flow@2025', 'USER', 11987654321);
+    pkg_insercoes.inserir_usuario('22233344455', 'Patrícia Mendes', 'patricia.mendes@ecocharge.com', 'Paty#Eco55', 'ADMIN', 21988442211);
+    pkg_insercoes.inserir_usuario('33344455566', 'Gustavo Araújo', 'gustavo.araujo@devspark.io', 'GusDev!2024', 'USER', 31999887766);
+    pkg_insercoes.inserir_usuario('44455566677', 'Renata Farias', 'renata.farias@mindstudy.com', 'R3nata*2024', 'USER', 11991234567);
+    pkg_insercoes.inserir_usuario('55566677788', 'Daniel Moreira', 'daniel.moreira@citymob.com', 'DanMob@55', 'USER', 21995566778);
+    pkg_insercoes.inserir_usuario('66677788899', 'Ana Paula Dias', 'ana.dias@biofuture.com', 'AnaBio#2024', 'ADMIN', 41997665544);
+    pkg_insercoes.inserir_usuario('77788899900', 'Ricardo Lima', 'ricardo.lima@codevision.dev', 'RicVision!77', 'USER', 11993456712);
+    pkg_insercoes.inserir_usuario('88899900011', 'Helena Duarte', 'helena.duarte@farmwise.io', 'HelenaF@44', 'USER', 31994561234);
+    pkg_insercoes.inserir_usuario('99900011122', 'Marcelo Tavares', 'marcelo.tavares@cyberlane.ai', 'MarcAI2025', 'USER', 21990011223);
+    pkg_insercoes.inserir_usuario('10101010101', 'Simone Prado', 'simone.prado@eventify.app', 'SimPr@2025', 'USER', 11999887755);
 
-    pkg_insercoes.inserir_usuario('20202020202', 'Elisa Fernandes', 'elisa.fernandes@auton.tech', 'Elisa@2020', 'USER', 31988442211);
-    pkg_insercoes.inserir_usuario('30303030303', 'Rodrigo Lima', 'rodrigo.lima@digitalhub.com', 'Rod3003', 'ADMIN', 11999887744);
-    pkg_insercoes.inserir_usuario('40404040404', 'Daniel Costa', 'daniel.costa@rocketdev.com', 'Dan#4040', 'USER', 11956781234);
-    pkg_insercoes.inserir_usuario('50505050505', 'Vanessa Duarte', 'vanessa.duarte@microgreen.com', 'Vane5050', 'USER', 21976558899);
-    pkg_insercoes.inserir_usuario('60606060606', 'Thiago Moreira', 'thiago.moreira@aiworks.com', 'Thiago6060!', 'USER', 31999881122);
-    pkg_insercoes.inserir_usuario('70707070707', 'Clara Mendes', 'clara.mendes@nextwave.com', 'Clara$7070', 'USER', 11988552233);
-    pkg_insercoes.inserir_usuario('80808080808', 'André Carvalho', 'andre.carvalho@shiptech.com', 'Andre8080', 'USER', 41999884455);
-    pkg_insercoes.inserir_usuario('90909090909', 'Luana Barros', 'luana.barros@cosmosdata.com', 'Luana9090', 'ADMIN', 21977441122);
-    pkg_insercoes.inserir_usuario('12121212121', 'Isadora Pinto', 'isadora.pinto@devpoint.com', 'Isa1212!', 'USER', 31955554433);
-    pkg_insercoes.inserir_usuario('13131313131', 'Mateus Rocha', 'mateus.rocha@cloudone.com', 'Mateus1313$', 'USER', 11944556677);
+    pkg_insercoes.inserir_usuario('12121212121', 'João Silveira', 'joao.silveira@moveon.com', 'JoaoMove@12', 'USER', 21988776655);
+    pkg_insercoes.inserir_usuario('13131313131', 'Letícia Moura', 'leticia.moura@healthtrack.io', 'Leti#Track33', 'USER', 31992334455);
+    pkg_insercoes.inserir_usuario('14141414141', 'Diego Fagundes', 'diego.fagundes@smartbudget.com', 'D!ego2024', 'ADMIN', 11988776644);
+    pkg_insercoes.inserir_usuario('15151515151', 'Carolina Silva', 'carolina.silva@agromap.io', 'CarolA#2025', 'USER', 21998877661);
+    pkg_insercoes.inserir_usuario('16161616161', 'Vinicius Lopes', 'vinicius.lopes@connectx.app', 'Vinix@88', 'USER', 41995544332);
+    pkg_insercoes.inserir_usuario('17171717171', 'Amanda Rocha', 'amanda.rocha@nanosoft.ai', 'Amand@Nano2025', 'USER', 31994432211);
+    pkg_insercoes.inserir_usuario('18181818181', 'Thiago Barreto', 'thiago.barreto@freshhome.io', 'Th1ago#2025', 'USER', 11996655443);
+    pkg_insercoes.inserir_usuario('19191919191', 'Sara Monteiro', 'sara.monteiro@airbot.ai', 'Sar@Air91', 'USER', 21997766554);
+    pkg_insercoes.inserir_usuario('20202020202', 'Eduardo Martins', 'eduardo.martins@finflow.io', 'EduFin@44', 'USER', 11993112233);
+    pkg_insercoes.inserir_usuario('30303030303', 'Julio Carvalho', 'julio.carvalho@terrascan.com', 'JCarv@2025', 'USER', 31988771234);
 END;
 /
 
@@ -118,27 +118,27 @@ BEGIN
     pkg_insercoes.inserir_habilidade(9, 'Sustentabilidade Corporativa', 'Ambiental');
     pkg_insercoes.inserir_habilidade(10, 'Machine Learning', 'Tecnologia');
     
-    pkg_insercoes.inserir_habilidade(11, 'Cybersegurança', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(11, 'Arquitetura de Software', 'Tecnologia');
     pkg_insercoes.inserir_habilidade(12, 'Gestão de Projetos Ágeis', 'Administração');
-    pkg_insercoes.inserir_habilidade(13, 'Arquitetura de Software', 'Tecnologia');
-    pkg_insercoes.inserir_habilidade(14, 'Edição de Vídeo', 'Design');
-    pkg_insercoes.inserir_habilidade(15, 'Copywriting', 'Comercial');
-    pkg_insercoes.inserir_habilidade(16, 'Growth Hacking', 'Marketing');
-    pkg_insercoes.inserir_habilidade(17, 'Engenharia de Prompt', 'Tecnologia');
-    pkg_insercoes.inserir_habilidade(18, 'Pesquisa de Mercado', 'Comercial');
-    pkg_insercoes.inserir_habilidade(19, 'Contabilidade Avançada', 'Administração');
-    pkg_insercoes.inserir_habilidade(20, 'Sistemas Embarcados', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(13, 'Branding Estratégico', 'Marketing');
+    pkg_insercoes.inserir_habilidade(14, 'Segurança da Informação', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(15, 'Economia Circular', 'Ambiental');
+    pkg_insercoes.inserir_habilidade(16, 'E-commerce Performance', 'Comercial');
+    pkg_insercoes.inserir_habilidade(17, 'Desenvolvimento Mobile', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(18, 'Pesquisa de Mercado', 'Administração');
+    pkg_insercoes.inserir_habilidade(19, 'Motion Design', 'Design');
+    pkg_insercoes.inserir_habilidade(20, 'Deep Learning', 'Tecnologia');
 
-    pkg_insercoes.inserir_habilidade(21, 'Ilustração Digital', 'Design');
-    pkg_insercoes.inserir_habilidade(22, 'Negociação Comercial', 'Comercial');
-    pkg_insercoes.inserir_habilidade(23, 'Cloud Computing', 'Tecnologia');
-    pkg_insercoes.inserir_habilidade(24, 'DevOps', 'Tecnologia');
-    pkg_insercoes.inserir_habilidade(25, 'Produção de Conteúdo', 'Marketing');
-    pkg_insercoes.inserir_habilidade(26, 'Fundraising para Startups', 'Administração');
-    pkg_insercoes.inserir_habilidade(27, 'Lean Startup', 'Administração');
-    pkg_insercoes.inserir_habilidade(28, 'Animação 3D', 'Design');
-    pkg_insercoes.inserir_habilidade(29, 'E-commerce Estratégico', 'Comercial');
-    pkg_insercoes.inserir_habilidade(30, 'Automação com IA', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(21, 'Automação de Processos', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(22, 'Gestão de Riscos', 'Administração');
+    pkg_insercoes.inserir_habilidade(23, 'Copywriting', 'Marketing');
+    pkg_insercoes.inserir_habilidade(24, 'Modelagem de Negócios', 'Administração');
+    pkg_insercoes.inserir_habilidade(25, 'Design Thinking', 'Design');
+    pkg_insercoes.inserir_habilidade(26, 'Sistemas IoT', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(27, 'Sustentabilidade Energética', 'Ambiental');
+    pkg_insercoes.inserir_habilidade(28, 'Data Engineering', 'Tecnologia');
+    pkg_insercoes.inserir_habilidade(29, 'Social Media Strategy', 'Marketing');
+    pkg_insercoes.inserir_habilidade(30, 'Criação de Prototipagem 3D', 'Design');
 END;
 /
 
@@ -157,26 +157,27 @@ BEGIN
     pkg_insercoes.inserir_startup('99000111000119', 'https://youtu.be/luHTpyfPHmU?si=tPfuFyb3Cr7I9-Hn', 'NeuroData', 'https://www.neurodata.ai', 'Análise preditiva de comportamento de consumo.', 'Juliana Lima', 'contato@neurodata.ai', '90123456789');
     pkg_insercoes.inserir_startup('10111222000100', 'https://youtu.be/WIS3PzNJEdU?si=0LpWfG8h6GOA6vQw', 'AquaLink', 'https://www.aqualink.tech', 'Gestão inteligente de recursos hídricos.', 'Diego Rocha', 'contato@aqualink.tech', '01234567890');
     
-    pkg_insercoes.inserir_startup('11111222000111', NULL, 'SkyConnect', 'https://skyconnect.io','Rede de APIs para integração rápida.', 'Fernando Ribeiro','contato@skyconnect.io', '11111111111');
-    pkg_insercoes.inserir_startup('22222333000122', NULL, 'BioTrack', 'https://biotrack.health','Monitoramento biométrico inteligente.', 'Patricia Gomes','hello@biotrack.health', '22222222222');
-    pkg_insercoes.inserir_startup('33333444000133', NULL, 'AutoBrain', 'https://autobrain.ai','Sistemas autônomos para logística.', 'Hugo Martins','contato@autobrain.ai', '33333333333');
-    pkg_insercoes.inserir_startup('44444555000144', NULL, 'WaveCast', 'https://wavecast.com','Plataforma de streaming corporativo.', 'Simone Araujo','info@wavecast.com', '44444444444');
-    pkg_insercoes.inserir_startup('55555666000155', NULL, 'EcoBalance', 'https://ecobalance.io','Gestão sustentável e compensação ambiental.', 'Eduardo Batista','suporte@ecobalance.io', '55555555555');
-    pkg_insercoes.inserir_startup('66666777000166', NULL, 'MindVision', 'https://mindvision.ai','IA aplicada à saúde mental.', 'Renata Xavier','contato@mindvision.ai', '66666666666');
-    pkg_insercoes.inserir_startup('77777888000177', NULL, 'ShipFlow', 'https://shipflow.com','Gestão de frotas marítimas com IoT.', 'João Paulo Medeiros','suporte@shipflow.com', '77777777777');
-    pkg_insercoes.inserir_startup('88888999000188', NULL, 'DataFlux', 'https://dataflux.dev','Big Data em tempo real.', 'Aline Castro','info@dataflux.dev', '88888888888');
-    pkg_insercoes.inserir_startup('99999000000199', NULL, 'AutoGreen', 'https://autogreen.eco','Automação inteligente para agricultura.', 'Gabriela Mendes','contato@autogreen.eco', '99999999999');
-    pkg_insercoes.inserir_startup('10101033000101', NULL, 'Infinidata', 'https://infinidata.com','Gestão inteligente de dados.', 'Marcelo Santos','hello@infinidata.com', '10101010101');
-    pkg_insercoes.inserir_startup('20202033000120', NULL, 'SustainaTech', 'https://sustainatech.com', 'Tecnologias verdes aplicadas ao setor industrial.', 'Elisa Fernandes', 'contato@sustainatech.com', '20202020202');
-    pkg_insercoes.inserir_startup('30303044000130', NULL, 'OmegaSoft', 'https://omegasoft.io', 'Plataforma de desenvolvimento low-code.', 'Rodrigo Lima', 'hello@omegasoft.io', '30303030303');
-    pkg_insercoes.inserir_startup('40404055000140', NULL, 'VisionFood', 'https://visionfood.ai', 'IA para análise nutricional de alimentos.', 'Daniel Costa', 'info@visionfood.ai', '40404040404');
-    pkg_insercoes.inserir_startup('50505066000150', NULL, 'SmartPay', 'https://smartpay.tech', 'Pagamentos instantâneos com blockchain.', 'Vanessa Duarte', 'suporte@smartpay.tech', '50505050505');
-    pkg_insercoes.inserir_startup('60606077000160', NULL, 'DeepLink', 'https://deeplink.ai', 'Identificação inteligente de padrões.', 'Thiago Moreira', 'contato@deeplink.ai', '60606060606');
-    pkg_insercoes.inserir_startup('70707088000170', NULL, 'NextFarm', 'https://nextfarm.io', 'Precision farming com drones.', 'Clara Mendes', 'contato@nextfarm.io', '70707070707');
-    pkg_insercoes.inserir_startup('80808099000180', NULL, 'MoonTech', 'https://moontech.space', 'Soluções aeroespaciais acessíveis.', 'André Carvalho', 'hello@moontech.space', '80808080808');
-    pkg_insercoes.inserir_startup('90909000000290', NULL, 'NeuroLink', 'https://neurolink.ai', 'Interfaces cérebro-máquina.', 'Luana Barros', 'suporte@neurolink.ai', '90909090909');
-    pkg_insercoes.inserir_startup('12121233000112', NULL, 'SmartSales', 'https://smartsales.com', 'Plataforma inteligente de vendas.', 'Isadora Pinto', 'info@smartsales.com', '12121212121');
-    pkg_insercoes.inserir_startup('13131344000113', NULL, 'LogicOne', 'https://logicone.dev', 'Otimização logística com IA.', 'Mateus Rocha', 'contato@logicone.dev', '13131313131');
+    pkg_insercoes.inserir_startup('20223344000111', 'https://youtu.be/WlXQgnRJZt8?si=PqFA5sBhdelnWXLY', 'SmartFlow', 'https://www.smartflow.com', 'Automação inteligente para empresas.', 'Fernando Ribeiro', 'contato@smartflow.com', '11122233344');
+    pkg_insercoes.inserir_startup('21334455000122', 'https://youtu.be/NYdrAIPLhIw?si=Jj-kdV61DcHbP5Fo', 'EcoCharge', 'https://www.ecocharge.io', 'Estações de recarga ecológica.', 'Patrícia Mendes', 'hello@ecocharge.io', '22233344455');
+    pkg_insercoes.inserir_startup('22445566000133', 'https://youtu.be/AD0FbOR4Zj8?si=0ju9Mhi6vRP7WPPE', 'DevSpark', 'https://www.devspark.dev', 'Comunidade e recursos para desenvolvedores.', 'Gustavo Araújo', 'contato@devspark.dev', '33344455566');
+    pkg_insercoes.inserir_startup('23556677000144', 'https://youtu.be/Bi0nVMm4dGc?si=zG-2Zszpvn6A9xk5', 'MindStudy', 'https://www.mindstudy.com', 'Plataforma de estudos cognitivos.', 'Renata Farias', 'info@mindstudy.com', '44455566677');
+    pkg_insercoes.inserir_startup('24667788000155', 'https://youtu.be/1QZR5De4f9E?si=0VW8c0oPTTr3MNFA', 'CityMob', 'https://www.citymob.app', 'Mobilidade urbana inteligente.', 'Daniel Moreira', 'mob@citymob.app', '55566677788');
+    pkg_insercoes.inserir_startup('25778899000166', 'https://youtu.be/7RDpXB6Hkf8?si=1LtoJRc2pzZDShL1', 'BioFuture', 'https://www.biofuture.bio', 'Biotecnologia aplicada ao bem-estar.', 'Ana Paula Dias', 'contato@biofuture.bio', '66677788899');
+    pkg_insercoes.inserir_startup('26889900000177', 'https://youtu.be/7RDpXB6Hkf8?si=1LtoJRc2pzZDShL1', 'CodeVision', 'https://www.codevision.ai', 'Ferramentas inteligentes para desenvolvedores.', 'Ricardo Lima', 'dev@codevision.ai', '77788899900');
+    pkg_insercoes.inserir_startup('27990011000188', 'https://youtu.be/Bi0nVMm4dGc?si=zG-2Zszpvn6A9xk5', 'FarmWise', 'https://www.farmwise.io', 'Gestão agrícola inteligente.', 'Helena Duarte', 'hello@farmwise.io', '88899900011');
+    pkg_insercoes.inserir_startup('28001122000199', 'https://youtu.be/8PsimpprLS0?si=rgCknCKmJYerkBY_', 'CyberLane', 'https://www.cyberlane.ai', 'Segurança digital para pequenas empresas.', 'Marcelo Tavares', 'security@cyberlane.ai', '99900011122');
+    pkg_insercoes.inserir_startup('29012233000100', 'https://youtu.be/Q3wa-tWIlUc?si=jWnGQ8kSpTP2aUsC', 'Eventify', 'https://www.eventify.app', 'Gestão de eventos com IA.', 'Simone Prado', 'contato@eventify.app', '10101010101');
+
+    pkg_insercoes.inserir_startup('30123344000111', 'https://youtu.be/K3ucIhcVmpk?si=B97TQ5DhXtRweBuv', 'MoveOn', 'https://www.moveon.com', 'Logística urbana automatizada.', 'João Silveira', 'hello@moveon.com', '12121212121');
+    pkg_insercoes.inserir_startup('31234455000122', 'https://youtu.be/pg6Kjxn_rA0?si=ioHBRZFWRFyxexoF', 'HealthTrack', 'https://www.healthtrack.io', 'Monitoramento de saúde por IA.', 'Letícia Moura', 'saude@healthtrack.io', '13131313131');
+    pkg_insercoes.inserir_startup('32345566000133', 'https://youtu.be/l360n_E3-k0?si=OMGrjjqQwPFeSXMB', 'SmartBudget', 'https://www.smartbudget.com', 'Plataforma de controle financeiro.', 'Diego Fagundes', 'finance@smartbudget.com', '14141414141');
+    pkg_insercoes.inserir_startup('33456677000144', 'https://youtu.be/hVTE0K8db6k?si=rvy8aPalpfkkqo1O', 'AgroMap', 'https://www.agromap.io', 'Mapeamento rural com drones.', 'Carolina Silva', 'agro@agromap.io', '15151515151');
+    pkg_insercoes.inserir_startup('34567788000155', 'https://youtu.be/7RDpXB6Hkf8?si=1LtoJRc2pzZDShL1', 'ConnectX', 'https://www.connectx.app', 'Conexão de redes profissionais.', 'Vinicius Lopes', 'contato@connectx.app', '16161616161');
+    pkg_insercoes.inserir_startup('35678899000166', 'https://youtu.be/AD0FbOR4Zj8?si=0ju9Mhi6vRP7WPPE', 'NanoSoft', 'https://www.nanosoft.ai', 'Microprocessadores inteligentes.', 'Amanda Rocha', 'info@nanosoft.ai', '17171717171');
+    pkg_insercoes.inserir_startup('36789900000177', 'https://youtu.be/6EEJBaH_f7Y?si=HIU66sWevhJTyzUZ', 'FreshHome', 'https://www.freshhome.io', 'Automação residencial sustentável.', 'Thiago Barreto', 'suporte@freshhome.io', '18181818181');
+    pkg_insercoes.inserir_startup('37890011000188', 'https://youtu.be/98I-3SiHPtg?si=izuc-PiCl2Pn1dUb', 'AirBot', 'https://www.airbot.ai', 'Drones autônomos para entrega.', 'Sara Monteiro', 'contato@airbot.ai', '19191919191');
+    pkg_insercoes.inserir_startup('38901122000199', 'https://youtu.be/AD0FbOR4Zj8?si=0ju9Mhi6vRP7WPPE', 'FinFlow', 'https://www.finflow.io', 'Gestão financeira automatizada.', 'Eduardo Martins', 'finance@finflow.io', '20202020202');
+    pkg_insercoes.inserir_startup('39012233000100', 'https://youtu.be/K3ucIhcVmpk?si=B97TQ5DhXtRweBuv', 'TerraScan', 'https://www.terrascan.com', 'Monitoramento geoespacial.', 'Julio Carvalho', 'contato@terrascan.com', '30303030303');
 END;
 /
 
@@ -194,27 +195,38 @@ BEGIN
     pkg_insercoes.inserir_avaliacao(9, 7, 'Funciona bem, mas precisa de mais documentação.', '90123456789', '10111222000100');
     pkg_insercoes.inserir_avaliacao(10, 9, 'Uma das melhores experiências que já tive.', '01234567890', '11222333000191');
     
-    pkg_insercoes.inserir_avaliacao(11, 9, 'Muito eficiente e fácil de usar.', '11111111111', '11111222000111');
-    pkg_insercoes.inserir_avaliacao(12, 8, 'A ideia é ótima, mas pode melhorar.', '22222222222', '22222333000122');
-    pkg_insercoes.inserir_avaliacao(13, 10, 'Simplesmente incrível!', '33333333333', '33333444000133');
-    pkg_insercoes.inserir_avaliacao(14, 7, 'Bom, mas precisa de melhorias.', '44444444444', '44444555000144');
-    pkg_insercoes.inserir_avaliacao(15, 9, 'Ferramenta extremamente útil.', '55555555555', '55555666000155');
-    pkg_insercoes.inserir_avaliacao(16, 6, 'Os relatórios são lentos às vezes.', '66666666666', '66666777000166');
-    pkg_insercoes.inserir_avaliacao(17, 10, 'Revolucionário!', '77777777777', '77777888000177');
-    pkg_insercoes.inserir_avaliacao(18, 8, 'Muito bom no geral.', '88888888888', '88888999000188');
-    pkg_insercoes.inserir_avaliacao(19, 7, 'Boa plataforma, mas interface confusa.', '99999999999', '99999000000199');
-    pkg_insercoes.inserir_avaliacao(20, 9, 'Excelente performance.', '10101010101', '10101033000101');
+    pkg_insercoes.inserir_avaliacao(1, 9, 'Excelente plataforma, suporte muito rápido!', '12345678901', '22333444000182');
+    pkg_insercoes.inserir_avaliacao(2, 8, 'Boa usabilidade, mas o design pode melhorar.', '23456789012', '33444555000173');
+    pkg_insercoes.inserir_avaliacao(3, 10, 'Ferramenta revolucionária no setor!', '34567890123', '66777888000146');
+    pkg_insercoes.inserir_avaliacao(4, 7, 'Poderia ter mais integrações com APIs externas.', '45678901234', '44555666000164');
+    pkg_insercoes.inserir_avaliacao(5, 9, 'Adorei o conceito da startup, muito promissor.', '56789012345', '55666777000155');
+    pkg_insercoes.inserir_avaliacao(6, 6, 'Sistema um pouco instável em horários de pico.', '67890123456', '77888999000137');
+    pkg_insercoes.inserir_avaliacao(7, 10, 'Excelente atendimento e produto inovador!', '78901234567', '99000111000119');
+    pkg_insercoes.inserir_avaliacao(8, 8, 'Ótimo custo-benefício e suporte técnico.', '89012345678', '88999000000128');
+    pkg_insercoes.inserir_avaliacao(9, 7, 'Funciona bem, mas precisa de mais documentação.', '90123456789', '10111222000100');
+    pkg_insercoes.inserir_avaliacao(10, 9, 'Uma das melhores experiências que já tive.', '01234567890', '11222333000191');
 
-    pkg_insercoes.inserir_avaliacao(21, 8, 'Atendeu às expectativas.', '20202020202', '20202033000120');
-    pkg_insercoes.inserir_avaliacao(22, 9, 'Plataforma bem estável.', '30303030303', '30303044000130');
-    pkg_insercoes.inserir_avaliacao(23, 7, 'Boa, mas falta integração.', '40404040404', '40404055000140');
-    pkg_insercoes.inserir_avaliacao(24, 10, 'Perfeita para meu negócio!', '50505050505', '50505066000150');
-    pkg_insercoes.inserir_avaliacao(25, 6, 'O app trava às vezes.', '60606060606', '60606077000160');
-    pkg_insercoes.inserir_avaliacao(26, 8, 'Gostei bastante da inovação.', '70707070707', '70707088000170');
-    pkg_insercoes.inserir_avaliacao(27, 9, 'Layout muito bem trabalhado.', '80808080808', '80808099000180');
-    pkg_insercoes.inserir_avaliacao(28, 10, 'Superou minhas expectativas.', '90909090909', '90909000000290');
-    pkg_insercoes.inserir_avaliacao(29, 8, 'Plataforma organizada.', '12121212121', '12121233000112');
-    pkg_insercoes.inserir_avaliacao(30, 9, 'Muito útil no dia a dia.', '13131313131', '13131344000113');
+    pkg_insercoes.inserir_avaliacao(11, 8, 'Ferramenta útil e fácil de navegar.', '11122233344', '20223344000111');
+    pkg_insercoes.inserir_avaliacao(12, 9, 'Excelente desempenho e suporte.', '22233344455', '21334455000122');
+    pkg_insercoes.inserir_avaliacao(13, 7, 'Bom potencial, mas precisa evoluir.', '33344455566', '22445566000133');
+    pkg_insercoes.inserir_avaliacao(14, 10, 'Inovadora e extremamente eficiente!', '44455566677', '23556677000144');
+    pkg_insercoes.inserir_avaliacao(15, 8, 'Plataforma muito intuitiva.', '55566677788', '24667788000155');
+    pkg_insercoes.inserir_avaliacao(16, 9, 'Excelente solução para o mercado.', '66677788899', '25778899000166');
+    pkg_insercoes.inserir_avaliacao(17, 8, 'Boa performance e ótima ergonomia.', '77788899900', '26889900000177');
+    pkg_insercoes.inserir_avaliacao(18, 7, 'Requer melhorias na interface.', '88899900011', '27990011000188');
+    pkg_insercoes.inserir_avaliacao(19, 10, 'O melhor produto que já utilizei.', '99900011122', '28001122000199');
+    pkg_insercoes.inserir_avaliacao(20, 9, 'Muito prática e funcional.', '10101010101', '29012233000100');
+
+    pkg_insercoes.inserir_avaliacao(21, 8, 'Boa experiência de uso.', '12121212121', '30123344000111');
+    pkg_insercoes.inserir_avaliacao(22, 7, 'Alguns bugs, mas nada grave.', '13131313131', '31234455000122');
+    pkg_insercoes.inserir_avaliacao(23, 9, 'Excelente proposta de valor.', '14141414141', '32345566000133');
+    pkg_insercoes.inserir_avaliacao(24, 8, 'Ótimo custo-benefício.', '15151515151', '33456677000144');
+    pkg_insercoes.inserir_avaliacao(25, 10, 'Simplesmente fantástica.', '16161616161', '34567788000155');
+    pkg_insercoes.inserir_avaliacao(26, 6, 'Pode melhorar a estabilidade.', '17171717171', '35678899000166');
+    pkg_insercoes.inserir_avaliacao(27, 9, 'Muito inovadora e eficiente.', '18181818181', '36789900000177');
+    pkg_insercoes.inserir_avaliacao(28, 8, 'Interface moderna e fluida.', '19191919191', '37890011000188');
+    pkg_insercoes.inserir_avaliacao(29, 9, 'Entrega tudo que promete.', '20202020202', '38901122000199');
+    pkg_insercoes.inserir_avaliacao(30, 7, 'Boa, mas ainda em amadurecimento.', '30303030303', '39012233000100');
 END;
 /
 
@@ -233,27 +245,27 @@ BEGIN
     pkg_insercoes.inserir_possui(9, '99000111000119', 7);
     pkg_insercoes.inserir_possui(10, '10111222000100', 2);
     
-    pkg_insercoes.inserir_possui(11, '11111222000111', 11);
-    pkg_insercoes.inserir_possui(12, '22222333000122', 12);
-    pkg_insercoes.inserir_possui(13, '33333444000133', 13);
-    pkg_insercoes.inserir_possui(14, '44444555000144', 14);
-    pkg_insercoes.inserir_possui(15, '55555666000155', 15);
-    pkg_insercoes.inserir_possui(16, '66666777000166', 16);
-    pkg_insercoes.inserir_possui(17, '77777888000177', 17);
-    pkg_insercoes.inserir_possui(18, '88888999000188', 18);
-    pkg_insercoes.inserir_possui(19, '99999000000199', 19);
-    pkg_insercoes.inserir_possui(20, '10101033000101', 20);
+   pkg_insercoes.inserir_possui(11, '20223344000111', 21);
+    pkg_insercoes.inserir_possui(12, '21334455000122', 27);
+    pkg_insercoes.inserir_possui(13, '22445566000133', 11);
+    pkg_insercoes.inserir_possui(14, '23556677000144', 19);
+    pkg_insercoes.inserir_possui(15, '24667788000155', 16);
+    pkg_insercoes.inserir_possui(16, '25778899000166', 22);
+    pkg_insercoes.inserir_possui(17, '26889900000177', 14);
+    pkg_insercoes.inserir_possui(18, '27990011000188', 18);
+    pkg_insercoes.inserir_possui(19, '28001122000199', 23);
+    pkg_insercoes.inserir_possui(20, '29012233000100', 24);
 
-    pkg_insercoes.inserir_possui(21, '20202033000120', 21);
-    pkg_insercoes.inserir_possui(22, '30303044000130', 22);
-    pkg_insercoes.inserir_possui(23, '40404055000140', 23);
-    pkg_insercoes.inserir_possui(24, '50505066000150', 24);
-    pkg_insercoes.inserir_possui(25, '60606077000160', 25);
-    pkg_insercoes.inserir_possui(26, '70707088000170', 26);
-    pkg_insercoes.inserir_possui(27, '80808099000180', 27);
-    pkg_insercoes.inserir_possui(28, '90909000000290', 28);
-    pkg_insercoes.inserir_possui(29, '12121233000112', 29);
-    pkg_insercoes.inserir_possui(30, '13131344000113', 30);
+    pkg_insercoes.inserir_possui(21, '30123344000111', 12);
+    pkg_insercoes.inserir_possui(22, '31234455000122', 28);
+    pkg_insercoes.inserir_possui(23, '32345566000133', 30);
+    pkg_insercoes.inserir_possui(24, '33456677000144', 25);
+    pkg_insercoes.inserir_possui(25, '34567788000155', 29);
+    pkg_insercoes.inserir_possui(26, '35678899000166', 13);
+    pkg_insercoes.inserir_possui(27, '36789900000177', 20);
+    pkg_insercoes.inserir_possui(28, '37890011000188', 26);
+    pkg_insercoes.inserir_possui(29, '38901122000199', 17);
+    pkg_insercoes.inserir_possui(30, '39012233000100', 15);
 END;
 /
 
